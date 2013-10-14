@@ -1,0 +1,562 @@
+html {
+
+}
+
+body {
+	margin: 0;
+	background-color: rgb(226, 221, 210);
+}
+
+/*Header Classes*/
+header {
+	height: 518px;
+	width:100%;
+	background: rgb(0, 50, 83);
+	/*background: url(http://fanart.tv/fanart/music/bfcb6630-9b31-4e63-b11f-7b0363be72b5/artistbackground/lumineers-the-4f7f47a3e9b22.jpg);*/
+	background: url(http://thekey.xpn.org/aatk/files/2013/06/lumineers.jpg);
+	/*background: url(http://userserve-ak.last.fm/serve/_/75971220/The+Lumineers++2012.jpg);*/
+	background-size: cover;
+	background-position: center center; 
+	background-attachment: fixed;
+	background-position-y: -120px;
+	text-align:center;
+	padding-top: 40px;
+	transition-properties: background;
+	transition: 1s;
+
+}
+
+.layer {
+	background: linear-gradient(to bottom, rgba(94, 82, 65, 0.85) 0%,rgba(51, 45, 36, 0.85) 80%);
+	top: 0;
+	left: 0;
+	margin-top: -40px;
+	height: 570px;
+	width: 100%;
+}
+
+.full-logo {
+	display: inline-block;
+	margin-left: 11%;
+	margin-top: 20px;
+	height: 29px;
+	width: 28px;
+	background: url(http://thekey.xpn.org/aatk/files/2013/06/lumineers.jpg);
+}
+
+header h1 {
+	font-size: 155px;
+	font-family: 'Oswald', sans-serif;
+	margin-top: 100px;
+	color: rgb(36, 29, 18);
+	margin-bottom: 12px;
+	text-shadow: 1px 1px 2px rgb(206, 190, 161);
+}
+
+/*.music-icon {
+	font-family: 'Oswald', sans-serif;
+	font-weight: lighter;
+	font-size: 30px;
+	display: inline-block;
+}*/
+
+.layer h3 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: lighter;
+	font-size: 25px;
+	display: inline-block;
+	height: 29px;
+	transition-properties: margin;
+	transition: 2s;
+	color: rgb(206, 190, 161);
+	float: left;
+	margin-left: 130px;
+}
+
+.about-search {
+	font-family: 'Oswald', sans-serif;
+	font-weight: lighter;
+	margin-top: 0px;
+	margin-right: 11%;
+	padding-top: 55px;
+}
+
+.about {
+	font-size: 25px;
+	color: rgb(206, 190, 161); 
+	display: inline-block;
+	margin-top: -30px;
+	margin-right:4%;
+	transition-properties: margin;
+	transition: 2s;
+	float: right;
+}
+
+.search {
+	font-size: 25px;
+	color: rgb(206, 190, 161); 
+	display: inline-block;
+	margin-top: -30px;
+	transition-properties: margin;
+	transition: 2s;
+	float: right;
+}
+
+.sub-heading {
+	font-family: 'Asap', sans-serif;
+	text-align: center;
+	color: rgb(206, 190, 161);
+	margin: -30px 0 0 0;
+	letter-spacing: -1px;
+	display: inline-block; 
+	font-size: 19px; 
+}
+
+/*Wrapper Classes*/
+.wrapper {
+	height: 940px;
+	width:100%;
+	background: rgb(226, 221, 210);
+
+}
+
+/*Left*/
+.left-content {
+	height: 100%;
+	width: 60%;
+	background: rgb(226, 221, 210);
+	display: inline-block;
+	margin-right: 4%;
+	margin-left: 3%;
+}
+
+.left-heading {
+	font-family: 'Oswald', sans-serif;
+	font-size: 70px;
+	margin: 0;
+	padding-top: 45px;
+	color: rgb(36, 29, 18);
+	transition-properties: font-size;
+	transition: 300;
+	display: inline-block;
+	line-height: 80px;
+}
+
+.profile-small-circle {
+	border-radius: 15px;
+	height: 30px;
+	width: 30px;
+	background: linear-gradient(to bottom, rgba(94, 82, 65, 0.85),rgba(51, 45, 36, 0.85));
+	overflow: hidden;
+	display: inline-block;
+}
+
+.profile-small-circle img {
+	margin-left: 3px;
+	height: 30px;
+	opacity: 0.6;
+	border-radius: 70px;
+}
+
+.left-content {
+	display: inline-block;
+	margin: 8px 0 0 0;
+	vertical-align: top;
+	font-family: 'Asap', sans-serif;
+	font-size: 18px;
+	color: rgb(71, 71, 71);
+	margin-left: 75px;
+	width: 680px;
+	line-height: 25px;
+}
+
+.author {
+	height: 35px;
+}
+
+.left-content h5 {
+	display: inline-block;
+	margin: 8px 0 0 0;
+	font-family: 'Asap', sans-serif;
+	font-size: 15px;
+	vertical-align: top;
+	margin-left: 20px;
+	color: rgb(83, 66, 43);
+}
+
+.left-content h6 {
+	display: inline-block;
+	margin: 8px 0 0 0;
+	font-family: 'Asap', sans-serif;
+	font-size: 15px;
+	vertical-align: top;
+	margin-left: 5px;
+	color: rgb(131, 124, 106);   
+}
+
+.vertical-line {
+	height: 70px;
+	width: 1px;
+	margin: 20px 0 0 15px;
+	border-left: 2px solid rgb(131, 124, 106);
+	display: inline-block;
+}
+
+.article p {
+	font-family: 'Oswald', sans-serif;
+	font-size: 35px;
+	color: rgb(83, 66, 43);  
+	vertical-align: top;
+	margin: 45px 0 0 5px;
+	display: inline-block;
+	text-transform:uppercase;
+}
+
+.article {
+	height: 70px;
+	margin-bottom: 30px;
+}
+
+.paragraph-two {
+	display: inline-block;
+	margin: 8px 0 0 0;
+	vertical-align: top;
+	font-family: 'Asap', sans-serif;
+	font-size: 18px;
+	color: rgb(71, 71, 71);
+	margin-left: 5px;
+	line-height: 25px;
+}
+
+.paragraph-btn {
+	color: rgb(226, 221, 210);
+	margin-right: 10px;
+	padding: 5px 15px 5px 15px;
+	font-size: 17px; 
+}
+
+.read-comments {
+	display: inline-block;
+	background-color: rgb(139, 122, 100)
+}
+
+.read-later {
+	display: inline-block;
+	background-color: rgb(139, 122, 100)
+}
+
+.share {
+	display: inline-block;
+	background-color: rgb(83, 66, 43);
+
+}
+
+/*Right*/
+.right-content {
+	height: 100%;
+	width: 30%;
+	background: rgb(226, 221, 210);
+	display: inline-block;
+	float: right;
+	margin-right: 45px;
+}
+
+.profile-circle {
+	border-radius: 100px;
+	height: 135px;
+	width: 135px;
+	margin: 40px auto 0 auto;
+	background: linear-gradient(to bottom, rgba(94, 82, 65, 0.85),rgba(51, 45, 36, 0.85));
+	overflow: hidden;
+	transition-properties: background;
+	transition: 300;
+}
+
+.profile-circle:hover {
+	background: none;
+}
+
+.profile-circle img {
+	margin-top: -5px;
+	margin-left: 1px;
+	height: 170px;
+	opacity: 0.6;
+	border-radius: 70px;
+}
+
+.profile-circle img:hover {
+	margin-top: -5px;
+	margin-left: 1px;
+	height: 170px;
+	opacity: 1;
+	border-radius: 70px;
+	transition-properties: opacity;
+	/*transition: 300;*/
+}
+
+.namesocial {
+	margin-left: 0px;
+}
+
+.right-content h3 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	color: rgb(83, 66, 43);  
+	height: 29px;
+	margin: 10px 0;
+	text-align: center;
+}
+
+.right-content h4 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 15px;
+	color: rgb(131, 124, 106);  
+	height: 29px;
+	margin: 0 0 50px 0;
+	text-align: center;
+}
+
+.right-content a {
+	color: rgb(131, 124, 106);
+	text-align: center;
+
+
+}
+
+.ad {
+	width: 80%;
+	margin-left: 35px;
+}
+
+.ad-text {
+	font-family: 'Asap', sans-serif;
+	font-size: 15px;
+	color: rgb(139, 122, 100);
+	line-height: 23px;
+	margin-left: 34px;
+	text-decoration: underline;
+	float: right;
+	margin-right: 37px;
+}
+
+h3.sidebar-header {
+  margin: 60px 0 0 0;
+  text-align: left;
+  margin-left: 35px;
+  width: 310px;
+
+}
+
+.sidebar-text {
+	font-family: 'Asap', sans-serif;
+	font-size: 15px;
+	color: rgb(139, 122, 100);
+	line-height: 23px;
+	margin-left: 34px;
+	width: 300px;
+	margin-top: 30px;
+}
+
+.footer {
+	background-color: black;
+	background: rgb(226, 221, 210);
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.footline {
+	background: rgb(189, 177, 161);
+	width:100%;
+	height:2px;
+}
+
+.footer-headline {
+	font-family: 'Oswald', sans-serif;
+	font-size: 70px;
+	margin: 0;
+	padding-top: 45px;
+	color: rgb(36, 29, 18);
+	padding-bottom: 20px;
+}
+
+.footimg {
+	margin-right: -4px;
+	/*width: 100%;*/
+}
+
+.image-1 {
+	position: relative;
+	width: 300px;
+	display: inline-block;
+	opacity: 0.2;
+}
+.image-2 {
+	position: relative;
+	background: linear-gradient(to bottom, rgba(94, 82, 65, 0.85) 0%,rgba(51, 45, 36, 0.85) 80%);
+	width: 300px;
+	display: inline-block;
+	opacity: 0.7;
+}
+.image-3 {
+	position: relative;
+	background: linear-gradient(to bottom, rgba(94, 82, 65, 0.85) 0%,rgba(51, 45, 36, 0.85) 80%);
+	width: 300px;
+	display: inline-block;
+	opacity: 0.2;
+}
+.image-4 {
+	position: relative;
+	background: linear-gradient(to bottom, rgba(94, 82, 65, 0.85) 0%,rgba(51, 45, 36, 0.85) 80%);
+	width: 300px;
+	display: inline-block;
+	opacity: 0.2;
+}
+
+.layer-2 {
+	position: relative;
+	background: linear-gradient(to bottom, rgba(94, 82, 65, 0.85) 0%,rgba(51, 45, 36, 0.85) 80%);
+	width: 298px;
+	display: inline-block;
+	margin-right: -4px;
+}
+
+.image-text-1 {
+	font-family: 'Oswald', sans-serif;
+	color: rgb(36, 29, 18);
+	position: absolute;
+	margin-top: -45px;
+	margin-left: 10px;
+	font-size: 30px;
+}
+.image-text-2 {
+	font-family: 'Oswald', sans-serif;
+	position: absolute;
+	margin-top: -45px;
+	margin-left: 10px;	
+	font-size: 30px;
+	color: rgb(226, 221, 210);
+}
+
+.bottom-footer {
+	background: rgb(36, 29, 18);
+	font-family: 'ASAP', sans-serif;
+	font-size: 15px;
+	color: rgb(138, 132, 119);
+	width: 100%;
+	height:110px;
+	margin-top: -4px;
+}
+
+.footerinfo {
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-top: 45px;
+}
+
+.ironyard-logo {
+	display:inline-block;	
+}
+
+.copyright {
+	display:inline-block;
+}
+
+.footernav {
+	display:inline-block;
+	float:right;
+}
+
+/*Footer Classes*/
+/*footer {
+	width: 100%;
+	height: 200px;
+	display: inline-block;
+	background: green
+
+}*/
+
+/*Media Queries*/
+@media (max-width: 1169px) {
+	header h1 {
+		font-size: 120px;
+
+	}
+}
+
+@media (max-width: 900px) {
+	
+	header {
+}
+	header h1 {
+		font-size: 100px;
+		font-family: 'Oswald', sans-serif;
+	}
+}
+@media (max-width: 700px) {
+	header {
+		
+		
+	}
+	header h1 {
+		font-size: 80px;
+
+	}
+}
+
+@media only screen and (max-width: 616px) {
+
+  .layer h3 {
+    font-size: 29px;
+  }
+
+  .search {
+    width: 205px;
+  }
+
+  .right-section {
+    padding-top: 70%;
+  }
+
+  .about {
+    width: 180px;
+    margin-right: 0;
+  }
+
+  .search {
+    width: 180px;
+  }
+
+  .article p {
+  	line-height: 40px;
+  	margin: -80px 0 0 30px;
+  	padding-top: 5px;
+  }
+
+}
+
+@media only screen and (max-width: 527px) {
+
+  .right-content {
+    padding-top: 180%;
+  }
+
+  .layer h3 {
+    font-size: 23px;
+  }
+
+  .layer h4 {
+    font-size: 14px;
+  }
+
+  .about {
+    width: 170px;
+  }
+
+  .search {
+    width: 170px;
+  }
+
+  .paragraph-two {
+  	padding-top: 60px;
+  }
+}
