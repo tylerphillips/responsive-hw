@@ -115,8 +115,8 @@ header h1 {
 /*Wrapper Classes*/
 .wrapper {
 	height: 940px;
-	width:100%;
-	background: rgb(226, 221, 210);
+	/*width:100%;*/
+	/*background: rgb(226, 221, 210);*/
 
 }
 
@@ -124,7 +124,7 @@ header h1 {
 .left-content {
 	height: 100%;
 	width: 60%;
-	background: rgb(226, 221, 210);
+	/*background: rgb(226, 221, 210);*/
 	display: inline-block;
 	margin-right: 4%;
 	margin-left: 3%;
@@ -255,7 +255,7 @@ header h1 {
 .right-content {
 	height: 100%;
 	width: 30%;
-	background: rgb(226, 221, 210);
+	/*background: rgb(226, 221, 210);*/
 	display: inline-block;
 	float: right;
 	margin-right: 45px;
@@ -471,6 +471,11 @@ h3.sidebar-header {
 	float:right;
 }
 
+.wrapper {
+	margin: 0 auto;
+	max-width: 1280px;
+}
+
 /*Footer Classes*/
 /*footer {
 	width: 100%;
@@ -481,6 +486,16 @@ h3.sidebar-header {
 }*/
 
 /*Media Queries*/
+
+@media only screen and (max-width: 1190px){
+	.left-content {
+		width: 500px;
+	}
+	.footer {
+		margin-top: 150px;
+	}
+
+}
 @media (max-width: 1169px) {
 	header h1 {
 		font-size: 120px;
@@ -496,7 +511,20 @@ h3.sidebar-header {
 		font-size: 100px;
 		font-family: 'Oswald', sans-serif;
 	}
+
+	.left-content {
+		width: 50%;
+	}
+	.footer {
+		margin-top: 250px;
+	}
 }
+@media (max-width: 814px) {
+	.footer {
+		margin-top: 400px;
+	}
+}
+
 @media (max-width: 700px) {
 	header {
 		
@@ -505,6 +533,18 @@ h3.sidebar-header {
 	header h1 {
 		font-size: 80px;
 
+	}
+	.right-content {
+		width:20%;
+	}
+	.-content {
+		width:40%;
+	}
+}
+@media (max-width: 699px) {
+	.deluxe {
+		margin-top: -40px;
+		margin-left: 25px;
 	}
 }
 
